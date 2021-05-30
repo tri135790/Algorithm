@@ -1,0 +1,21 @@
+
+J
+java:S1066
+"/Merge this if statement with the enclosing one.(¨ô¼ıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›º¶÷øÿÿÿÿ
+g
+java:S1128"LRemove this unused import 'GreedyAlgorithm.PikachuAndGameOfStringAlgorithm'.(’©—ûÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "mergeSort".(›˜ãâşÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "arr".(™İ‘Ïùÿÿÿÿ
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ùï¾ÿÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(ùï¾ÿÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(™İ‘Ïùÿÿÿÿ
+C
+java:S1481"(Remove this unused "arr" local variable.(™İ‘Ïùÿÿÿÿ
+I
+java:S1481".Remove this unused "mergeSort" local variable.(›˜ãâşÿÿÿÿ
