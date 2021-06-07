@@ -1,0 +1,7 @@
+
+X
+java:S2184"BCast one of the operands of this division operation to a "double".(§Ö°ê
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ ¨±úÿÿÿÿ
+;
+java:S2185"%Remove this silly call to "Math.ceil"(§Ö°ê
+N	java:S106"9Replace this use of System.out or System.err by a logger.(žçù‹
