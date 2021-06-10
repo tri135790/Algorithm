@@ -35,3 +35,11 @@ e
 5src/main/java/PracticeAlgorithm/ContainDuplicate.java,4\a\4affbd0f6a767bb9a6c43b726fa7b1f711524c93
 d
 4src/main/java/PracticeAlgorithm/MajorityElement.java,f\d\fd2cb7c63c45fe7d8df674900e524a6fddcfe685
+i
+9src/main/java/PracticeAlgorithm/DeleteNodeLinkedList.java,b\e\be64551bfb994025e6fc333aca6830b243641a3a
+a
+1src/main/java/PracticeAlgorithm/PowerOfThree.java,6\d\6df9066d5514f40cbb71d34171c0be676ae43512
+b
+2src/main/java/PracticeAlgorithm/MissingNumber.java,7\b\7b8b8ad22b67b0610aa94cbe49a90979b1b15b08
+a
+1src/main/java/PracticeAlgorithm/ValidAnagram.java,0\4\045a3fbbb166e3f4bd09fd9f0e6d6071cdc6e712
