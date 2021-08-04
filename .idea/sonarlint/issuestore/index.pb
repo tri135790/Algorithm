@@ -43,3 +43,5 @@ b
 2src/main/java/PracticeAlgorithm/MissingNumber.java,7\b\7b8b8ad22b67b0610aa94cbe49a90979b1b15b08
 a
 1src/main/java/PracticeAlgorithm/ValidAnagram.java,0\4\045a3fbbb166e3f4bd09fd9f0e6d6071cdc6e712
+p
+@src/main/java/PracticeAlgorithm/LongestPalindromicSubstring.java,1\6\16e3bc12530aa8e29126d60e64943ea35b33ed61
