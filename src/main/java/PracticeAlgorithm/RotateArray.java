@@ -1,25 +1,25 @@
 package PracticeAlgorithm;
 
 
-//PENDING
 
 import java.util.Arrays;
 
 public class RotateArray {
   public static void rotate(int[] nums, int k) {
-    if (nums.length > k) {
-      int[] arr = new int[k];
-      int count = 0;
-      for (int i = nums.length - k; i < nums.length; i++) {
-        arr[count++] = nums[i];
-      }
-      for (int i = nums.length - 1; i >= 0; i--) {
-        if (i >= k) {
-          nums[i] = nums[i - k];
-        } else {
-          nums[i] = arr[i];
-        }
-      }
+    k %= nums.length;
+    reverse(nums,0, nums.length -1);
+    reverse(nums,0, k-1);
+    reverse(nums, k, nums.length -1);
+
+  }
+
+  public static void reverse(int[] nums, int start, int end) {
+    while (start < end) {
+      int temp = nums[start];
+      nums[start] = nums[end];
+      nums[end] = temp;
+      end--;
+      start++;
     }
   }
 
@@ -28,4 +28,16 @@ public class RotateArray {
     rotate(arr, 3);
     System.out.println(Arrays.toString(arr));
   }
+
 }
+
+
+
+//1 2 3 4 5 6 7
+// 1 2 3 4 5 6 7
+// 1 2 7 4 5 6 3
+// 1 2 7 4 5 3 6
+// 1 6 7 4 5 3 2
+// 1 6 7 4 2 3 5
+// 5 6 7 4 2 3 1
+// 5 6 7 1 2 3 4
