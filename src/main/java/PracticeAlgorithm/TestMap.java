@@ -1,20 +1,27 @@
 package PracticeAlgorithm;
 
+
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Stack;
 
 public class TestMap {
 
-    public static int findFactorial(int number) {
-        if (number == 1) {
-            return 1;
+    public static void moveZeroes(int[] nums) {
+        int countZeroes = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                countZeroes++;
+            } else {
+                nums[i-countZeroes] = nums[i];
+            }
         }
-        return number * findFactorial(number-1);
+        while (countZeroes > 0) {
+            nums[nums.length -countZeroes] = 0;
+            countZeroes--;
+        }
     }
     public static void main(String[] args) {
-        System.out.println(findFactorial(4));
-        int[] nums = new int[] {1,2,3,4,345,12,5,124,6,2};
-        Arrays.stream(nums).sorted().forEach(s -> System.out.println());
+        int[] nums = new int[] {0,1,0,3,12};
+        moveZeroes(nums);
+        System.out.println(Arrays.toString(nums));
     }
 }
