@@ -1,5 +1,9 @@
 package Sorting;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.function.Consumer;
+
 public class Duck implements Comparable<Duck>{
 
     private int id;
@@ -26,5 +30,11 @@ public class Duck implements Comparable<Duck>{
     @Override
     public int compareTo(Duck d) {
         return d.id - id;
+    }
+
+    public static void makeSound(String sound) {
+        LearnToSpeak learner = System.out::println;
+        DuckHelper.teacher(sound,learner);
+        Consumer<List<Integer>> lamba = Collections::sort;
     }
 }
