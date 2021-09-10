@@ -1,6 +1,6 @@
 package inheritance;
 
-public interface Jumpable {
+public interface Jumpable extends Runnable{
     public void jump();
     public  void hello();
 }
